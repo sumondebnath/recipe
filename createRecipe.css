@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.create-recipe-container{
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+.create-recipe-container h2{
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.create-recipe-container form div label{
+    font-weight: bolder;
+    padding-left: 5px;
+}
+.create-recipe-container form div #title{
+    width: 700px;
+    height: 50px;
+    padding: 20px;
+}
+.create-recipe-container form div textarea{
+    width: 700px;
+    height: 300px;
+    padding: 30px;
+}
+.create-recipe-container form div #image{
+    width: 700px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.create-recipe-container form div .input-btn{
+    margin-top: 20px;
+    padding: 12px 50px;
+    font-weight: bolder;
+    background-color: #325A92;
+    color: whitesmoke;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} 
+.create-recipe-container form div .input-btn:hover{
+    background-color: #74C6FF;
+    color: black;
+    
+}
+
+
+
+@media only Screen and (min-width:320px) and (max-width:425px){
+    .create-recipe-container{
+        margin-top: 30px;
+        display: grid;
+        place-items: center;
+    }
+    .create-recipe-container h2{
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .create-recipe-container form div label{
+        font-weight: bolder;
+        padding-left: 3px;
+    }
+    .create-recipe-container form div #title{
+        width: 100%;
+        height: 50px;
+        padding: 20px;
+    }
+    .create-recipe-container form div textarea{
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+    }
+    .create-recipe-container form div #image{
+        width: 400px;
+        height: 50px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    .create-recipe-container form div .input-btn{
+        margin-top: 20px;
+        padding: 12px 50px;
+        font-weight: bolder;
+        background-color: #325A92;
+        color: whitesmoke;
+        border: none;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    } 
+    .create-recipe-container form div .input-btn:hover{
+        background-color: #74C6FF;
+        color: black;
+        
+    }
+    
+}
